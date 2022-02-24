@@ -1,0 +1,97 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+      
+    <!--                      contenedores de texto
+
+      section: Es un contenedor generico que agrupa contenido que esta relacionado. cuando creamos bloques cuyo contenido es parte de un bloque total usaremos section.
+
+     article: Es un contenedor que representa contenido independiente, es decir, podemos leer ese fragmento en cualquier otro sitio y tendria sentido por si mismo.
+
+    aside: Se utiliza para representar contenido relacionado pero que no forma parte del contenido principal
+  -->
+
+<!-- 
+    header: Representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.
+    
+    main: representa el contenido principal del <body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras laterales, enlaces de navegación.
+    
+     footer: representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección, Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.
+
+-->
+
+<!-- 
+  aside: Se utiliza para representar contenido indirectamente relacionado pero que no forma parte del contenido principal (links hacia otras paginas, canales, menus, cursos. cosas indirectamente relacionadas).
+ -->
+  
+ <!-- elementos de bloque: Los elementos de bloque van a ocupar todo el ancho disponible aunque su contenido no lo haga, por lo que los elementos que pongamos a continuacion saltaran a la siguiente linea. -->
+
+ <!--                   atributos de enlace
+  
+  (poner una redireccion dentro de la pagina)
+ target: define donde se abrira el recurso solicitado. por norma general siempre se utilizan rutas absolutas con valor "black" "self".
+
+(poner un archivo para descargar dentro de la pagina)
+download: lo que se debe priorisar es que el archivo que se intente descargar este dentro de la carpeta de html que se este creando al momento "download"
+--> 
+
+
+
+<!--                     ir a un punto de la pagina con un click
+si se quiere ir a un lugar especifico dentro de la pagina que tenemos como lo tiene wikipedia se debe colocar el comando <nav> junto con el comando <a> para hacer un tipo de enlace
+
+-->
+
+
+<!--                                    listas
+
+  las listas en HTML sirven para listar contenido. en funcion del tipo de contenido de nuestra lista tenemos tres tipos de listas:
+
+   (anotacion: cada elemento de la lista se representa con la etiqueta <li>tanto en las ul como en las ol)
+
+  ul-> unordered list: se utilizan cuando el orden de los elementos no influte (lista de compra).
+
+  ol -> ordered list: se utilizan cuando el orden de los elementos es importante (top 10, receta).
+
+  dl -> definition list: se utilizan para hacer una lista de definiciones (diccionario).
+
+  cada elemento de una lista de definicion lleva 2 etiquetas:
+
+          dt -> definition term: el termino que vamos a definir.
+
+         dd -> definition description: la descripcion del termino.
+ -->
+
+ <!--                                atributos de listas
+  ol -> type: estilo de numeracion (1, A, a ,I, i)
+        start: inicio de secuencia (un numero)
+  
+  ul -> type: estilo de los items (disc, square, circle 0)      
+ -->
+
+ <!--                                   tablas
+
+  las tablas en HTML sirven para mostrar contenido tabulado o dentro de una celdita.
+
+  la estrutura basica de una tabla se compone de:
+      table -> etiqueta que encierra una tabla.
+      tr -> table row, etiqueta que contruye una fila.
+      td-> table data, etiqueta que contruye una celda.
+      
+      truco: el numero de celdas dentro de un tr establecera el numero de columnas de la tabla.
+ -->
+
+ <!--                             formularios
+la estructura basica de un formulario se compone de 4 elementos
+
+form -> es la etiqueta que engloba nuestro formulario.
+label -> sirve para escribir el nombre del campo a rellenar.
+          debe tener el atributo for al cual se le indica un id que lo que hara sera emparejar el label con su input correspondiente.
+input -> sirve para crear un campo que permitira al usuario interactuar. el unico atributo obligatorio del input es name.
+button -> crea un boton que permitira enviar el formulario.
+
+ -->
+</body>
